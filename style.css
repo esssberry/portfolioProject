@@ -9,7 +9,10 @@
 html {
 
 }
-
+body {
+    grid-template-columns: 20;
+    grid-template-rows: 12;
+}
 /* Header */
 header {
 
