@@ -27,9 +27,9 @@ header {
     position: fixed;
 }
 header h1 {
-    grid-area: 1 / 8 / 2 / 13;
+    grid-area: 1 / 7 / 2 / 14;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 65px;
     font-size: 3em;
 }
 header nav {
@@ -62,6 +62,39 @@ main {
 }
 
 /* Section */
+.mainImage {
+    grid-area: 4 / 11 / 10 / 18;
+}
 
+.mainImage
+    img {
+        width: 600px;
+        height: 800px;
+    }
+
+.skills {
+    grid-area: 13 / 3 / 19 / 19 ;
+    background-color: teal;
+    margin-top: 120px;
+}
+
+.htmlLogo {
+    height: 200px;
+    width: 200px;
+}
+
+.cssLogo {
+    height: 200px;
+    width: 200px;
+}
+
+.jsLogo {
+    height: 200px;
+    width: 200px;
+}
 
 /* Footer */
+footer {
+    grid-area: 20 / 1 / 21 / 20;
+    background-color: teal;
+}
